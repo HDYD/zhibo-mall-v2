@@ -1,0 +1,26 @@
+{
+  "name": "zhibo-h5",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "uni",
+    "build": "uni build",
+    "test:e2e": "playwright test tests/e2e"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0-alpha-3080620220527001",
+    "@dcloudio/uni-ui": "^1.4.28",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.3.2",
+    "@dcloudio/uni-automator": "^3.0.0-alpha-3080620220527001",
+    "@dcloudio/uni-cli-shared": "^3.0.0-alpha-3080620220527001",
+    "@dcloudio/uni-stacktracey": "^3.0.0-alpha-3080620220527001",
+    "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3080620220527001",
+    "@playwright/test": "^1.28.1",
+    "@vue/shared": "^3.5.27",
+    "puppeteer": "^24.36.1",
+    "sass": "^1.97.3",
+    "vite": "^4.0.0"
+  }
+}
