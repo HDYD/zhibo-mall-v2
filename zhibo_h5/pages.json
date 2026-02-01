@@ -1,0 +1,103 @@
+{
+	"pages": [
+		{
+			"path": "pages/mall/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/course/index",
+			"style": {
+				"navigationBarTitleText": "课程"
+			}
+		},
+		{
+			"path": "pages/livestream/index",
+			"style": {
+				"navigationBarTitleText": "直播"
+			}
+		},
+		{
+			"path": "pages/school/index",
+			"style": {
+				"navigationBarTitleText": "商学院"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+        {
+            "path": "pages/mall/detail",
+            "style": {
+                "navigationBarTitleText": "商品详情"
+            }
+        },
+        {
+            "path": "pages/mall/cart",
+            "style": {
+                "navigationBarTitleText": "购物车"
+            }
+        },
+        {
+            "path": "pages/mall/order",
+            "style": {
+                "navigationBarTitleText": "我的订单"
+            }
+        },
+        {
+            "path": "pages/mall/seckill",
+            "style": {
+                "navigationBarTitleText": "秒杀专区"
+            }
+        },
+        {
+            "path": "pages/livestream/room",
+            "style": {
+                "navigationBarTitleText": "直播间"
+            }
+        },
+        {
+            "path": "pages/course/detail",
+            "style": {
+                "navigationBarTitleText": "课程详情"
+            }
+        }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "直播分销商城",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FF5722",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/mall/index",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/course/index",
+				"text": "课程"
+			},
+            {
+				"pagePath": "pages/livestream/index",
+				"text": "直播"
+			},
+			{
+				"pagePath": "pages/school/index",
+				"text": "商学院"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的"
+			}
+		]
+	}
+}
